@@ -1,4 +1,4 @@
-import "./loadEnvironment.js";
+import "./loadEnviroment.js";
 import createDebug from "debug";
 import mongoose from "mongoose";
 import app from "./server/index.js";
