@@ -22,7 +22,7 @@ export const generalError = (
   debug(`Error: ${error.message}`);
 
   const statusCode = error.statusCode || 500;
-  const message = error.statusCode ? error.message : "General pete";
+  const message = error.statusCode ? error.message : "General Error";
 
   res.status(statusCode).json({ message });
 };
