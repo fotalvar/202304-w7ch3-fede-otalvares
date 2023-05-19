@@ -1,5 +1,5 @@
 import { type Request, type Response } from "express";
-import CustomError from "../CustomError/CustomError.js";
+import CustomError from "../../CustomError/CustomError.js";
 import { notFoundError } from "./errorMiddlewares.js";
 
 describe("Given an notFoundError function", () => {
